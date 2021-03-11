@@ -1,17 +1,44 @@
 <!doctype html>
 <html>
 <head>
-  <title>Web - Welcom</title>
+  <title>Hanmaeum Church - Welcom</title>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1><a href="index.html">WEB</a></h1>
+  <input type="button" value="night" onclick="
+  document.querySelector('body').style.backgroundColor='black';
+  document.querySelector('body').style.color='blue';
+  ">
+  <input type="button" value="day" onclick="
+  document.querySelector('body').style.backgroundColor='white';
+  document.querySelector('body').style.color='black';
+  ">
+  <div id="grid">
   <ol>
-    <li><a href="1.html">HTML</a></li>
-    <li><a href="2.html">CSS</a></li>
-    <li><a href="3.html">JavsScript</a></li>
-</ol>
+      <li><a href="1.html">HTML</a></li>
+      <li><a href="2.html">CSS</a></li>
+      <li><a href="3.html">JavsScript</a></li>
+  </ol>
+<!--
+<h1><a href="index.html"><font color="red">WEB</font></a></h1>
+  <ol>
+    <li><a href="1.html"><font color="red">HTML</font></a></li>
+    <li><a href="2.html"><font color="red">CSS</font></a></li>
+    <li><a href="3.html"><font color="red">JavsScript</font></a></li>
+  </ol>
+-->
+<div id="article">
 <h2>WEB</h2>
-<p>World Wide Web, which is also known as a Web, is a collection of websites or web pages stored in web servers and connected to local computers through the internet. These websites contain text pages, digital images, audios, videos, etc. ... A web page is given an online address called a Uniform Resource Locator (URL). </p>
+<p><font color="black">World Wide Web, which is also known as a Web, is a
+   collection of websites or web pages stored in web servers
+   and connected to local computers through the internet.
+   These websites contain text pages, digital images, audios,
+   videos, etc. ... A web page is given an online address called
+   a Uniform Resource Locator (URL).
+  </p>
+  </div>
+</div>
 </body>
 </html>
